@@ -5,7 +5,7 @@
   --hero-blue: #0a7cff;
   --cape-green: #16a34a;
   --caption-bg: #fef08a;
-  --gutter: 12px;
+  --gutter: 14px;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -58,7 +58,6 @@ nav a:hover { color: var(--hero-blue); }
 .btn.secondary { background: white; color: var(--hero-blue); }
 .btn.big { font-size: 1.15rem; padding: 0.8rem 1.6rem; }
 
-/* Comic page container */
 .comic-page {
   max-width: 1100px;
   margin: 1.5rem auto;
@@ -104,7 +103,6 @@ nav a:hover { color: var(--hero-blue); }
 
 .caption-box.small { font-size: 0.7rem; }
 
-/* Speech bubbles */
 .speech-bubble {
   background: white;
   border: 3px solid var(--ink);
@@ -147,7 +145,6 @@ nav a:hover { color: var(--hero-blue); }
   border-color: var(--ink) transparent;
 }
 
-/* Hero panel */
 .hero-panel .panel-content {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
@@ -163,6 +160,7 @@ nav a:hover { color: var(--hero-blue); }
   line-height: 0.95;
   margin-bottom: 0.6rem;
   letter-spacing: 0.5px;
+  text-shadow: 2px 2px 0 var(--ink);
 }
 
 .hero-panel p { margin-bottom: 0.5rem; font-size: 1.05rem; }
@@ -184,7 +182,6 @@ nav a:hover { color: var(--hero-blue); }
   display: block;
 }
 
-/* Service list in panel */
 .service-list { display: flex; flex-direction: column; gap: 0.6rem; margin-top: 0.5rem; }
 .service-item {
   background: #f0f9ff;
@@ -194,7 +191,6 @@ nav a:hover { color: var(--hero-blue); }
   font-size: 0.9rem;
 }
 
-/* Pricing */
 .pricing-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -226,7 +222,6 @@ nav a:hover { color: var(--hero-blue); }
 
 .note { font-size: 0.85rem; margin-top: 0.75rem; color: #555; }
 
-/* About */
 .about-content {
   display: grid;
   grid-template-columns: 1.3fr 0.7fr;
@@ -244,7 +239,6 @@ nav a:hover { color: var(--hero-blue); }
 .about-text ul { margin: 0.75rem 0 0 1.2rem; }
 .about-text li { margin-bottom: 0.3rem; }
 
-/* Testimonial */
 .testimonial-panel blockquote {
   font-size: 1.15rem;
   font-style: italic;
@@ -253,7 +247,6 @@ nav a:hover { color: var(--hero-blue); }
 }
 .testimonial-panel cite { display: block; margin-top: 0.5rem; font-style: normal; font-weight: 700; }
 
-/* Contact */
 .contact-panel { text-align: center; }
 .contact-panel h2 {
   font-family: 'Bangers', cursive;
@@ -264,7 +257,6 @@ nav a:hover { color: var(--hero-blue); }
 .contact-info { margin: 1rem 0; }
 .contact-info a { color: var(--hero-blue); font-weight: 700; text-decoration: none; }
 
-/* Footer */
 footer {
   background: var(--ink);
   color: white;
